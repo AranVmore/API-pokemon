@@ -10,6 +10,7 @@ function obtenerDatos() {
     fetch('https://pokeapi.co/api/v2/pokemon').then(
         res => res.json()).then(data => {
             //console.log(data);
+            // recorremos results para mostrar sus datos
             data.results.forEach(pokemon => {
                 var pokename = pokemon.name;//almacenamos nombre
                 var pokeurl = pokemon.url; //almacenamos url
@@ -25,7 +26,7 @@ function obtenerDatos() {
                     res.json().then(pokedex => {
                         var imagen = pokedex.sprites.front_default;
                         
-                        //creamos las cartas con estilos bootstrap
+                        //creamos la carta que se repetirá con estilos bootstrap
                         const cardAll = `
                         <div id="tarjeta${pokename}"class="card mx-5 my-5" style="width: 18rem;">
                         <img src="${imagen}" class="card-img-top" alt="imagen_pokemon">

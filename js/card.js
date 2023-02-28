@@ -42,7 +42,8 @@ function navegacion() {
             var tipo2 = pokedex.types[1] ? pokedex.types[1].type.name : ''; //obtenemos el segundo si tiene, si no, lo mostramos vacío
             var colorOne = typeColors[pokedex.types[0].type.name]; //le asignamos el color segun el tipo que coincide con la paleta
             var colorTwo = pokedex.types[1] ? typeColors[pokedex.types[1].type.name] : typeColors.default; //igual para el segundo
-            var nametype = '';
+            // inicializamos vacío para posterior actualización
+            var nametype = ''; 
             var pokeStats = '';
             var pokeStat = '';
             var muestraInfo = '';
