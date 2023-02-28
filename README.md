@@ -8,8 +8,8 @@ Creación y subida realizada mediante Visual Code Studio
 
 ## Muestra
 
-<img src="https://ibb.co/yPxb9PK" alt="capturapoke" border="0"  width="400" />
-<img src="https://ibb.co/QFXJdhk" alt="capturapoke2" border="0"  width="400" />
+<a href="https://ibb.co/yPxb9PK"><img src="https://i.ibb.co/JtSM1t8/captura01.png" alt="captura01" border="0" width="400"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/4ZJFdC2/captura02.png" alt="captura02" border="0" width="400"></a>
 
 Tecnologías:
 - HTML
